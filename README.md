@@ -24,3 +24,15 @@ News Highlight is a web application that is meant to catch up hard workers on cu
 python3.6
 
 ## BDD
+
+-The app should display news sources:
+
+Input Example: On page load
+
+Output Example: Panels of various news sources is displayed per category
+
+-The app should display articles from a selected news source:
+
+Input Example: Click on See more from this site button
+
+Output Example: Redirected to a page with a list of articles from the selected source
