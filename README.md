@@ -46,3 +46,9 @@ https://shilla-newshighlight.herokuapp.com
 -Python
 -Flask micro-framework
 -Bootstrap
+
+## licence
+
+MIT License
+
+Copyright (c) 2019 shilla celinedion
