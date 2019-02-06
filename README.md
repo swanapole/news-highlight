@@ -40,3 +40,9 @@ Output Example: Redirected to a page with a list of articles from the selected s
 ## link to live website
 
 https://shilla-newshighlight.herokuapp.com
+
+## technology used
+
+-Python
+-Flask micro-framework
+-Bootstrap
