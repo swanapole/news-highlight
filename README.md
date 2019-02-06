@@ -18,3 +18,9 @@ News Highlight is a web application that is meant to catch up hard workers on cu
 - Install python 3.6
 - Run chmod a+x start.py
 - Run ./start.py
+
+## must requirements
+
+python3.6
+
+## BDD
