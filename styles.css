@@ -1,0 +1,127 @@
+body {
+  color: maroon;
+  background-position: center;
+  font-family: Lobster,cursive;
+}
+h1{
+  font-size: 70px;
+}
+.parallax {
+  background-image: url("https://www.culinarylocal.com/wp-content/uploads/2015/11/outdoor-party.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("https://www.hpac.com/sites/hpac.com/files/styles/article_featured_standard/public/istockcalendarweb.jpg?itok=2e887Krs");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 h2 h3 {
+  color: maroon;
+}
+nav ul li a {
+  padding: 18px;
+  margin-right: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  color: rgba(255, 255, 255, 0.833);
+}
+nav {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 10px 0;
+}
+
+table th td {
+  border: 1px solid black;
+}
+
+img {
+  display: flow-root;
+}
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+@media screen and (max-width:720px) {
+  .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+  .weekdays li, .days li {width: 12.5%;}
+  .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+  .weekdays li, .days li {width: 12.2%;}
+}
